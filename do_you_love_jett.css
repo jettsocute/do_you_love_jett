@@ -1,20 +1,27 @@
-@-moz-document url("https://csgoempire.com/match-betting"), url("https://csgoempire.com/roulette"), url("https://csgoempire.com/coinflip"), url("https://csgoempire.com/cases"), url("https://csgoempire.com/case-battles"), url("https://csgoempire.com/case-battles/create"), regexp("https://csgoempire\\.com/case-battles/game/.*") {
-    body::before {
-        content: "Do you love Jett?";
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-33%, -37%);
-        font-size: 100px;
-        font-weight: bold;
-        color: #ffffff;
-        text-align: center;
-        z-index: 9999;
-        padding: 20px;
-        border-radius: 60px;
-        pointer-events: none;
-        background-color: rgba(0, 0, 0, 100);
-        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxGcwCxE2ZzoFHIPip3N8m78SExUZUNACm1ZAWSUsyol0yMpAv07Dy8YWDEy1HxkyNUEU&usqp=CAU');
-        text-shadow: 3px 3px 0 rgba(0, 0, 0, 1);
-    }
-    }
+@-moz-document url("https://csgoempire.com/match-betting"), url("https://csgoempire.com/roulette"), url("https://csgoempire.com/coinflip"), url("https://csgoempire.com/cases"), url("https://csgoempire.com/case-battles"), url("https://csgoempire.com/case-battles/create"), url("https://csgoempire.com/deposit"), url("https://csgoempire.com/deposit/steam"), url("https://csgoempire.com/fairness"), regexp("https://csgoempire\\.com/case-battles/game/.*"), regexp("https://csgoempire\\.com/history\\?seed=.*") {
+body::before {
+    content: "Do you love Jett?";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    z-index: 9999;
+    padding: 20px;
+    border-radius: 60px;
+    pointer-events: none;
+    
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 1);
+}
+
+.site-layout__main.relative.z-10 {
+    display: none !important;
+}
+
+.chat--open.chat.h-full.z-30 {
+    display: none !important;
+}
+}
