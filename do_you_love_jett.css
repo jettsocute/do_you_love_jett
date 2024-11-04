@@ -1,3 +1,4 @@
+@-moz-document url("https://csgoempire.com/match-betting"), url("https://csgoempire.com/roulette"), url("https://csgoempire.com/coinflip"), url("https://csgoempire.com/cases"), url("https://csgoempire.com/case-battles"), url("https://csgoempire.com/case-battles/create"), url("https://csgoempire.com/deposit"), url("https://csgoempire.com/deposit/steam"), url("https://csgoempire.com/fairness"), regexp("https://csgoempire\\.com/case-battles/game/.*"), regexp("https://csgoempire\\.com/history\\?seed=.*") {
 body::before {
     content: "Do you love Jett?";
     position: fixed;
